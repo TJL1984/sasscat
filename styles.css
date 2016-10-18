@@ -3,14 +3,22 @@ header {
 
 li.octocat {
   border: 1px solid #cc99cc;
-  width: 200px; }
-  li.octocat .cats {
-    width: 75%; }
+  width: 200px;
+  float: left;
+  margin: 10px; }
 
-.author {
-  width: 25%; }
+.cats {
+  width: 75%; }
 
 ul {
   list-style: none; }
+
+.octonumber {
+  float: left;
+  margin: 5px 0;
+  color: #c4c4c4; }
+
+cite .author {
+  width: 25%; }
 
 /*# sourceMappingURL=styles.css.map */
