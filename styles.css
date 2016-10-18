@@ -1,5 +1,6 @@
 header {
-  background-color: #c4c4c4; }
+  background-color: #c4c4c4;
+  margin: 0; }
 
 li.octocat {
   border: 1px solid #cc99cc;
