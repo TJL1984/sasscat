@@ -2,7 +2,6 @@ li.octocat {
   border: 1px solid #cc99cc;
   width: 200px;
 
-
   .cats {
     width: 75%;
 }
@@ -11,4 +10,8 @@ li.octocat {
 
 .author {
   width: 25%;
+}
+
+ul {
+  list-style: none;
 }
