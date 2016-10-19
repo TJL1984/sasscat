@@ -1,13 +1,16 @@
 
 .octonumber {
-  float:left;
-  margin: 5px 0;
+  float: left;
+  margin: 15px 0;
   color: $catNumberColor;
 }
 
 cite {
-.author {
-  width: 25%;
+  float: right;
+
+
+  .author {
+    width: 30px;
 }
 
 }

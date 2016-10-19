@@ -1,25 +1,34 @@
 header {
-  background-color: #c4c4c4;
-  margin: 0; }
+  background-color: #c4c4c4; }
+
+h1 {
+  float: left; }
+
+ul li {
+  margin: auto, 0; }
 
 li.octocat {
-  border: 1px solid #cc99cc;
-  width: 200px;
+  border: 1px solid #444444;
+  width: 300px;
   float: left;
-  margin: 10px; }
+  margin: 10px;
+  text-align: center; }
 
 .cats {
-  width: 75%; }
+  width: 75%;
+  padding: 10px; }
 
 ul {
   list-style: none; }
 
 .octonumber {
   float: left;
-  margin: 5px 0;
+  margin: 15px 0;
   color: #c4c4c4; }
 
-cite .author {
-  width: 25%; }
+cite {
+  float: right; }
+  cite .author {
+    width: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
