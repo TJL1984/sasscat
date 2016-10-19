@@ -2,13 +2,14 @@ header {
   background-color: #c4c4c4; }
 
 h1 {
-  float: left; }
+  float: none; }
 
 ul li {
   margin: auto, 0; }
 
 li.octocat {
   border: 1px solid #444444;
+  border: bottom 0;
   width: 300px;
   float: left;
   margin: 10px;
@@ -30,5 +31,15 @@ cite {
   float: right; }
   cite .author {
     width: 30px; }
+
+@media screen and (min-width: 350px) {
+  li .octocat {
+    float: right; } }
+@media screen and (min-width: 700px) {
+  li .octocat {
+    float: left; } }
+@media screen and (min-width: 1050) {
+  li .octocat {
+    float: left; } }
 
 /*# sourceMappingURL=styles.css.map */
